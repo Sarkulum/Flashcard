@@ -32,3 +32,6 @@ Question 1,Answer 1
 Question 2,Answer 2 
 "Question with, comma","Answer with, comma"
 ```
+
+### Disclaimer
+This app is provided “as is”. While I do not knowingly include malicious code in the source or APK, I take no responsibility for any data loss, device damage, or device bricking that may occur as a result of installing or using this application. Use at your own risk.
