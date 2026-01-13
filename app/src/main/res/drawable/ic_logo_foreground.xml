@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Bottom Card (Teal) -->
+    <group android:pivotX="54" android:pivotY="54" android:rotation="-15">
+        <path
+            android:fillColor="#03DAC5"
+            android:pathData="M34,26 h40 v56 h-40 z" />
+    </group>
+
+    <!-- Middle Card (Purple Dark) -->
+    <group android:pivotX="54" android:pivotY="54" android:rotation="15">
+        <path
+            android:fillColor="#5A2A8C"
+            android:pathData="M34,26 h40 v56 h-40 z" />
+    </group>
+
+    <!-- Top Card (White) -->
+    <group android:pivotX="54" android:pivotY="54" android:rotation="0">
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M34,26 h40 v56 h-40 z" />
+        <!-- Decoration lines on card -->
+        <path
+            android:fillColor="#7738B1"
+            android:pathData="M39,36 h30 v3 h-30 z" />
+        <path
+            android:fillColor="#7738B1"
+            android:pathData="M39,43 h30 v3 h-30 z" />
+        <path
+            android:fillColor="#7738B1"
+            android:pathData="M39,50 h20 v3 h-20 z" />
+    </group>
+</vector>
