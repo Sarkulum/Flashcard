@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_background"
+    android:background="@color/bg_screen"
     tools:context=".ViewerActivity">
 
     <androidx.cardview.widget.CardView
@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:cardCornerRadius="12dp"
-        app:cardBackgroundColor="@color/card_background"
+        app:cardBackgroundColor="@color/bg_card"
         app:cardElevation="4dp">
 
         <TextView
@@ -28,9 +28,11 @@
             android:gravity="center"
             android:padding="24dp"
             android:text="Question"
-            android:textColor="@color/white"
+            android:textColor="@color/text_primary"
             android:textSize="32sp"
-            android:fontFamily="sans-serif-medium" />
+            android:fontFamily="sans-serif-medium"
+            android:breakStrategy="high_quality"
+            android:hyphenationFrequency="full" />
 
     </androidx.cardview.widget.CardView>
 
@@ -42,7 +44,7 @@
         android:layout_marginStart="48dp"
         android:background="@drawable/circle_background"
         android:src="@android:drawable/ic_media_previous"
-        app:tint="@color/white"
+        app:tint="@color/text_primary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:contentDescription="Previous Card" />
@@ -55,7 +57,7 @@
         android:layout_marginEnd="48dp"
         android:background="@drawable/circle_background"
         android:src="@android:drawable/ic_media_next"
-        app:tint="@color/white"
+        app:tint="@color/text_primary"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:contentDescription="Next Card" />

@@ -14,7 +14,7 @@
         android:text="New Flashcard Set"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:textColor="@color/white"
+        android:textColor="@color/text_primary"
         android:gravity="center"
         android:layout_marginBottom="16dp" />
 
@@ -25,8 +25,8 @@
         android:hint="Set Name"
         android:gravity="center"
         android:inputType="text"
-        android:textColor="@color/white"
+        android:textColor="@color/text_primary"
         android:textColorHint="#B0BEC5"
-        android:backgroundTint="@color/white" />
+        android:backgroundTint="@color/text_primary" />
 
 </LinearLayout>
